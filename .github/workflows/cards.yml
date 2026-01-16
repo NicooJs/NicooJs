@@ -1,4 +1,4 @@
-name: Profile Cards
+name: Profile Cards (Stable)
 
 permissions:
   contents: write
@@ -12,40 +12,44 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      # CARD 1 — STATS (geral)
+      - name: Generate stats card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: NicooJs
+          template: classic
+          config_timezone: America/Sao_Paulo
+          base: header, activity, repositories
+          filename: stats.svg
 
-      - name: Download stats (SVG)
-        run: |
-          curl -fL \
-            -H "Accept: image/svg+xml" \
-            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=NicooJs&show_icons=true&hide_border=true&theme=tokyonight" \
-            -o stats.svg
+      # CARD 2 — LANGUAGES
+      - name: Generate languages card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: NicooJs
+          template: classic
+          config_timezone: America/Sao_Paulo
+          base: header
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          filename: langs.svg
 
-      - name: Download languages (SVG)
-        run: |
-          curl -fL \
-            -H "Accept: image/svg+xml" \
-            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NicooJs&layout=compact&hide_border=true&theme=tokyonight" \
-            -o langs.svg
-
-      - name: Download streak (SVG)
-        run: |
-          curl -fL \
-            -H "Accept: image/svg+xml" \
-            "https://github-streak-stats.herokuapp.com/?user=NicooJs&hide_border=true&theme=tokyonight" \
-            -o streak.svg
-
-      - name: Validate SVGs
-        run: |
-          head -n 2 stats.svg | grep -qi "<svg"
-          head -n 2 langs.svg | grep -qi "<svg"
-          head -n 2 streak.svg | grep -qi "<svg"
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg langs.svg streak.svg
-          git commit -m "chore: update profile cards" || exit 0
-          git push
+      # CARD 3 — “STREAK” (equivalente estável)
+      # (metrics não tem o mesmo streak do outro card, então usamos calendário + ritmo)
+      - name: Generate activity card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: NicooJs
+          template: classic
+          config_timezone: America/Sao_Paulo
+          base: header
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          filename: streak.svg

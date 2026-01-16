@@ -15,17 +15,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download stats card
+      - name: Download stats (SVG)
         run: |
-          curl -L "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=NicooJs&show_icons=true&hide_border=true&theme=tokyonight" -o stats.svg
+          curl -fL \
+            -H "Accept: image/svg+xml" \
+            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=NicooJs&show_icons=true&hide_border=true&theme=tokyonight" \
+            -o stats.svg
 
-      - name: Download languages card
+      - name: Download languages (SVG)
         run: |
-          curl -L "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NicooJs&layout=compact&hide_border=true&theme=tokyonight" -o langs.svg
+          curl -fL \
+            -H "Accept: image/svg+xml" \
+            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NicooJs&layout=compact&hide_border=true&theme=tokyonight" \
+            -o langs.svg
 
-      - name: Download streak card
+      - name: Download streak (SVG)
         run: |
-          curl -L "https://streak-stats.demolab.com?user=NicooJs&hide_border=true&theme=tokyonight" -o streak.svg
+          curl -fL \
+            -H "Accept: image/svg+xml" \
+            "https://github-streak-stats.herokuapp.com/?user=NicooJs&hide_border=true&theme=tokyonight" \
+            -o streak.svg
+
+      - name: Validate SVGs
+        run: |
+          head -n 2 stats.svg | grep -qi "<svg"
+          head -n 2 langs.svg | grep -qi "<svg"
+          head -n 2 streak.svg | grep -qi "<svg"
 
       - name: Commit and push
         run: |

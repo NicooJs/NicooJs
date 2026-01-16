@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # CARD 1 — STATS
+      # CARD 1 — STATS (principal)
       - name: Generate stats card
         uses: lowlighter/metrics@latest
         with:
@@ -26,7 +26,7 @@ jobs:
           base: header, activity, repositories
           filename: stats.svg
 
-      # CARD 2 — LANGUAGES
+      # CARD 2 — LANGUAGES (sem header/duplicacao)
       - name: Generate languages card
         uses: lowlighter/metrics@latest
         with:
@@ -35,10 +35,13 @@ jobs:
           template: classic
           theme: tokyonight
           config_timezone: America/Sao_Paulo
-          base: header
+
+          # tenta remover duplicacao do topo
+          base: ""
+
           plugin_languages: yes
           plugin_languages_details: percentage
-          plugin_languages_limit: 8
+          plugin_languages_limit: 6
           filename: langs.svg
 
       - name: Commit & push

@@ -10,10 +10,9 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=NicoJs&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NicoJs&layout=compact&theme=github_dark&hide_border=true" />
-</div>
+<p align="center">
+  <img src="./github-metrics.svg" />
+</p>
 
 
 

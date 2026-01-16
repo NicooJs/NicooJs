@@ -10,10 +10,11 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 
 ## 📊 GitHub Dashboard
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NicooJs/NicooJs/main/stats.svg" />
-  <img src="https://raw.githubusercontent.com/NicooJs/NicooJs/main/langs.svg" />
-</p>
+<div align="center">
+  <img width="460" src="./stats.svg" />
+  <img width="360" src="./langs.svg" />
+</div>
+
 
 
 ---

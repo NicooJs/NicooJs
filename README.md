@@ -11,11 +11,9 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 ## 📊 GitHub Dashboard
 
 <div align="center">
-  <img height="160" src="./stats.svg" />
-  <img height="160" src="./langs.svg" />
-  <img height="160" src="./streak.svg" />
+  <img width="420" src="./stats.svg" />
+  <img width="420" src="./langs.svg" />
 </div>
-
 
 
 ---

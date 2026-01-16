@@ -13,11 +13,6 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 <div align="center">
   <img height="160" src="./stats.svg" />
   <img height="160" src="./langs.svg" />
-</div>
-
-<br/>
-
-<div align="center">
   <img height="160" src="./streak.svg" />
 </div>
 

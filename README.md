@@ -11,8 +11,8 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 ## 📊 GitHub Dashboard
 
 <div align="center">
-  <img width="420" src="./stats.svg" />
-  <img width="420" src="./langs.svg" />
+  <img width="460" src="https://github-readme-stats.vercel.app/api?username=NicooJs&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="360" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NicooJs&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 

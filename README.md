@@ -10,9 +10,12 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 
 ## 📊 GitHub Stats
 
+## 📊 GitHub Stats
+
 <p align="center">
-  <img src="./github-metrics.svg" />
+  <img src="https://raw.githubusercontent.com/NicoJs/NicoJs/main/github-metrics.svg" />
 </p>
+
 
 
 

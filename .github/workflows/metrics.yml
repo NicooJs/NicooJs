@@ -12,31 +12,17 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub metrics
+      - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # TOKEN
           token: ${{ secrets.METRICS_TOKEN }}
-
-    
           user: NicooJs
 
-          # CONFIGURAÇÕES DE COMMIT 
-          committer_branch: main
-          committer_message: "chore: update github metrics"
-          committer_username: NicoJs
-          committer_email: nicolasarantescamargo@gmail.com
-
-          # TEMPLATE
           template: classic
-
-          # BASE
-          base: header, activity, repositories
-
-          # TIMEZONE
           config_timezone: America/Sao_Paulo
 
-          # PLUGINS
+          base: header, activity, repositories
+
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
@@ -46,5 +32,4 @@ jobs:
 
           plugin_followup: yes
 
-          # ARQUIVO GERADO
           filename: github-metrics.svg

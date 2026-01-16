@@ -16,7 +16,6 @@ Em projetos visuais, atuo com frontend em React e CSS, priorizando design e deci
 </div>
 
 
-
 ---
 
 ## 🛠️ Stack

@@ -1,10 +1,10 @@
 <h2 align="left">Olá, eu sou o Nicolas Arantes</h2>
 
 <p align="left">
-Analytics Engineer e Frontend Developer.<br/>
+Analytics Engineer e Dev fullstack.<br/>
 Trabalho com dados em nuvem, automação e sistemas analíticos.<br/>
-Em projetos visuais, atuo com frontend em React e CSS, priorizando design e decisões sustentáveis no longo prazo.
-</p>
+Em projetos visuais, atuo com frontend em React e CSS, priorizando desig. Desenvolvo fluxos completos de dados e automação, sustentados por um backend robusto em Python e SQL.
+
 
 ---
 

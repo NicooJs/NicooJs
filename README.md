@@ -4,6 +4,7 @@
 Analytics Engineer e Dev fullstack.<br/>
 Trabalho com dados em nuvem, automação e sistemas analíticos.<br/>
 Em projetos visuais, atuo com frontend em React e CSS, priorizando desig. Desenvolvo fluxos completos de dados e automação, sustentados por um backend robusto em Python e SQL.
+Projetos de destaque Bot para automatização de criação de conteúdo e aplicação web para doações ao vivo.
 
 
 ---

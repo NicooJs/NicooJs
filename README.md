@@ -1,55 +1,32 @@
-<h2 align="left">Olá, eu sou o Nicolas Arantes</h2>
+## Olá, eu sou o Nicolas
 
-<p align="left">
-Analytics Engineer e Dev fullstack.<br/>
-Trabalho com dados em nuvem, automação e sistemas analíticos.<br/>
-Em projetos visuais, atuo com frontend em React e CSS, priorizando desig. Desenvolvo fluxos completos de dados e automação, sustentados por um backend robusto em Python e SQL.
-Projetos de destaque Bot para automatização de criação de conteúdo e aplicação web para doações ao vivo.
+Analytics Engineer e dev fullstack. Trabalho com dados em nuvem,
+automação e sistemas analíticos, e por fora gosto de meter a mão em
+projetos web completos, do banco até a interface.
 
+### JogodaVez
 
----
+Plataforma de leilão ao vivo via Pix pra streamers da Twitch. Espectador
+escolhe um jogo do catálogo, doa apoiando ou sabotando, e o placar
+atualiza em tempo real na tela da live.
 
-## 📊 GitHub Dashboard
+Node.js, Express, Socket.IO, React, PostgreSQL, deploy no Railway.
 
-<div align="center">
-  <img width="460" src="./stats.svg" />
-  <img width="360" src="./langs.svg" />
-</div>
+[github.com/NicooJs/JogodavezCC](https://github.com/NicooJs/JogodavezCC)
 
+### Outros projetos
 
----
+- Carlton: projeto audiovisual com site próprio pra comercialização,
+  frontend e integração com backend.
+- Achai: projeto acadêmico com sensores ESP32 integrados a um frontend
+  pra detectar ocupação de vaga.
 
-## 🛠️ Stack
+### Também uso
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40"/>
-</div>
+Python, SQL, SQL Server, Databricks, Apache Spark, Big Data, Power BI,
+Tableau, Excel, AWS, Claude.
 
----
+### Contato
 
-## 📁 Projetos em destaque
-
-- **Carlton**  
-  Projeto audiovisual com site próprio para comercialização.  
-  Atuação em frontend, estrutura visual e integração com backend.
-
-- **Achai**  
-  Projeto acadêmico envolvendo integração de sensores ESP32 com sistema frontend para detecção de ocupação de vagas.
-
----
-
-## 🌐 Contato
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/nicolasarantes" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:nicolasarantescamargo@gmail.com">
-    <img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</div>
+[LinkedIn](https://www.linkedin.com/in/nicolasarantes) ·
+[nicolasarantescamargo@gmail.com](mailto:nicolasarantescamargo@gmail.com)

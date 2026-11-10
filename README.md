@@ -3,6 +3,7 @@
 Analytics Engineer e dev fullstack. Trabalho com dados em nuvem,
 automação e sistemas analíticos, e por fora gosto de meter a mão em
 projetos web completos, do banco até a interface.
+Utilizo IA para revisões complexas da estrutura e organização geral do código e GIT
 
 ### JogodaVez
 

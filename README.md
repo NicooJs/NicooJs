@@ -13,6 +13,7 @@ atualiza em tempo real na tela da live.
 Node.js, Express, Socket.IO, React, PostgreSQL, deploy no Railway.
 
 [github.com/NicooJs/JogodavezCC](https://github.com/NicooJs/JogodavezCC)
+https://jogodavez.net/
 
 ### Outros projetos
 
